@@ -1,5 +1,6 @@
 import React from 'react';
 import { movies } from '../data';
+import genresLi from '../mappers/movies';
 
 const Movies = () => {
   const movieDivs = movies.map((movie, index) => {
