@@ -1,5 +1,6 @@
 import React from 'react';
 import { directors } from '../data';
+import moviesLi from '../mappers/movies';
 
 const Directors = () => {
   const directorDivs = directors.map((director, index) => {
